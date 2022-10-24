@@ -1723,6 +1723,10 @@
 		8350FC4D20DA937B00C19D60 /* ArticleLocationAuthorizationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8350FC4B20DA937B00C19D60 /* ArticleLocationAuthorizationCollectionViewCell.swift */; };
 		8350FC4E20DA937B00C19D60 /* ArticleLocationAuthorizationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8350FC4B20DA937B00C19D60 /* ArticleLocationAuthorizationCollectionViewCell.swift */; };
 		8350FC4F20DA937B00C19D60 /* ArticleLocationAuthorizationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8350FC4B20DA937B00C19D60 /* ArticleLocationAuthorizationCollectionViewCell.swift */; };
+		83510B0728F4CF6400B6235B /* TalkPageErrorStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83510B0628F4CF6400B6235B /* TalkPageErrorStateView.swift */; };
+		83510B0828F4CF6400B6235B /* TalkPageErrorStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83510B0628F4CF6400B6235B /* TalkPageErrorStateView.swift */; };
+		83510B0928F4CF6400B6235B /* TalkPageErrorStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83510B0628F4CF6400B6235B /* TalkPageErrorStateView.swift */; };
+		83510B0A28F4CF6400B6235B /* TalkPageErrorStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83510B0628F4CF6400B6235B /* TalkPageErrorStateView.swift */; };
 		8351CE7820D4424100E32FC1 /* CollectionViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8351CE7720D4424100E32FC1 /* CollectionViewHeader.swift */; };
 		8351CE7920D4424100E32FC1 /* CollectionViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8351CE7720D4424100E32FC1 /* CollectionViewHeader.swift */; };
 		8351CE7A20D4424100E32FC1 /* CollectionViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8351CE7720D4424100E32FC1 /* CollectionViewHeader.swift */; };
@@ -2435,6 +2439,12 @@
 		BCCB813E1C110702008BC602 /* NSDate+WMFPOTDTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCB813C1C110702008BC602 /* NSDate+WMFPOTDTitle.m */; };
 		BCD3200A1C6EC6BC00317D08 /* NSTimeZone+WMFTestingUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD320091C6EC6BC00317D08 /* NSTimeZone+WMFTestingUtils.m */; };
 		BCD557BB1C45B1600060A51A /* UIApplication+VisualTestUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD557BA1C45B1600060A51A /* UIApplication+VisualTestUtils.m */; };
+		C97092C22904240D00D9CF07 /* BaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97092C12904240D00D9CF07 /* BaseTest.swift */; };
+		C97092E1290468EC00D9CF07 /* SearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97092E0290468EC00D9CF07 /* SearchTests.swift */; };
+		C9BDDBD22904A5EE00B017D1 /* CommonHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BDDBD12904A5EE00B017D1 /* CommonHelpers.swift */; };
+		C9BDDBD6290553B800B017D1 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BDDBD5290553B800B017D1 /* HomeScreen.swift */; };
+		C9BDDBD82905540700B017D1 /* SearchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BDDBD72905540700B017D1 /* SearchScreen.swift */; };
+		C9BDDBDB29058FEB00B017D1 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BDDBDA29058FEB00B017D1 /* Article.swift */; };
 		D4991439181D51DE00E6073C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4991438181D51DE00E6073C /* Foundation.framework */; };
 		D499143B181D51DE00E6073C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D499143A181D51DE00E6073C /* CoreGraphics.framework */; };
 		D499143D181D51DE00E6073C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D499143C181D51DE00E6073C /* UIKit.framework */; };
@@ -4524,6 +4534,7 @@
 		834CC34A21075B7600F62818 /* UITabBar+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabBar+Theme.swift"; sourceTree = "<group>"; };
 		834F47F32833D91F00F86C80 /* RemoteNotificationFilterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteNotificationFilterType.swift; sourceTree = "<group>"; };
 		8350FC4B20DA937B00C19D60 /* ArticleLocationAuthorizationCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleLocationAuthorizationCollectionViewCell.swift; sourceTree = "<group>"; };
+		83510B0628F4CF6400B6235B /* TalkPageErrorStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkPageErrorStateView.swift; sourceTree = "<group>"; };
 		8351CE7720D4424100E32FC1 /* CollectionViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewHeader.swift; sourceTree = "<group>"; };
 		8356115C28D4FCEC00E95E6E /* NSMutableAttributedString+RemoveNewLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+RemoveNewLine.swift"; sourceTree = "<group>"; };
 		8359BAC621E4C9C1009B5E6C /* Fetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetcher.swift; sourceTree = "<group>"; };
@@ -5086,6 +5097,12 @@
 		BCD557B91C45B1600060A51A /* UIApplication+VisualTestUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIApplication+VisualTestUtils.h"; path = "WikipediaUnitTests/Code/UIApplication+VisualTestUtils.h"; sourceTree = SOURCE_ROOT; };
 		BCD557BA1C45B1600060A51A /* UIApplication+VisualTestUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+VisualTestUtils.m"; path = "WikipediaUnitTests/Code/UIApplication+VisualTestUtils.m"; sourceTree = SOURCE_ROOT; };
 		BCF012321AD2FA38008D3675 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		C97092C12904240D00D9CF07 /* BaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTest.swift; sourceTree = "<group>"; };
+		C97092E0290468EC00D9CF07 /* SearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTests.swift; sourceTree = "<group>"; };
+		C9BDDBD12904A5EE00B017D1 /* CommonHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonHelpers.swift; sourceTree = "<group>"; };
+		C9BDDBD5290553B800B017D1 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		C9BDDBD72905540700B017D1 /* SearchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreen.swift; sourceTree = "<group>"; };
+		C9BDDBDA29058FEB00B017D1 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		D4991435181D51DE00E6073C /* Wikipedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wikipedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4991438181D51DE00E6073C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D499143A181D51DE00E6073C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -6229,24 +6246,18 @@
 		00D1F58D28885B8200127169 /* Talk Pages */ = {
 			isa = PBXGroup;
 			children = (
+				83510B0528F4CF0200B6235B /* View Model */,
+				83510B0428F4CED800B6235B /* View */,
 				83ACF8EA28E5D7E3000F3B6F /* Model */,
 				00E5B39D28EB8E0600D2C51A /* Onboarding */,
 				0072990428AC44C100DCD2E6 /* Cell UI Elements */,
 				836BF56D2869F9C200B98321 /* TalkPageViewController.swift */,
-				00D1F58E28885BA300127169 /* TalkPageViewModel.swift */,
 				67C9FBFE28C77F350065A530 /* TalkPageTopicComposeViewController.swift */,
-				00D46DA42889B7F50015DE9B /* TalkPageView.swift */,
 				00D46DA92889B9250015DE9B /* TalkPageCell.swift */,
 				67134A1628A73C0A00BA0BB9 /* TalkPageReplyComposeController.swift */,
 				6730FD0D28998EFD000E5F40 /* TalkPageReplyComposeContentView.swift */,
-				00CB6897288B0CD3002EBB0A /* TalkPageHeaderView.swift */,
-				0072990A28AC455500DCD2E6 /* TalkPageCellViewModel.swift */,
-				00DEE61828AD6C9500A60DF9 /* TalkPageCellCommentViewModel.swift */,
 				67C1757528AD4D6000C5ABA4 /* TalkPageDataController.swift */,
 				00474A2928DD1AE2002E3C09 /* TalkPageCoffeeRollViewController.swift */,
-				005E004028DE1F2800721584 /* TalkPageCoffeeRollViewModel.swift */,
-				00474A2E28DD1B13002E3C09 /* TalkPageCoffeeRollView.swift */,
-				00EACEC528E39D470054DDB4 /* TalkPageEmptyView.swift */,
 				003CD3E828EF7C77000158E4 /* TalkPageFindInPageController.swift */,
 			);
 			name = "Talk Pages";
@@ -7810,6 +7821,29 @@
 			name = Transitions;
 			sourceTree = "<group>";
 		};
+		83510B0428F4CED800B6235B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00CB6897288B0CD3002EBB0A /* TalkPageHeaderView.swift */,
+				00D46DA42889B7F50015DE9B /* TalkPageView.swift */,
+				00474A2E28DD1B13002E3C09 /* TalkPageCoffeeRollView.swift */,
+				00EACEC528E39D470054DDB4 /* TalkPageEmptyView.swift */,
+				83510B0628F4CF6400B6235B /* TalkPageErrorStateView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		83510B0528F4CF0200B6235B /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				00D1F58E28885BA300127169 /* TalkPageViewModel.swift */,
+				005E004028DE1F2800721584 /* TalkPageCoffeeRollViewModel.swift */,
+				0072990A28AC455500DCD2E6 /* TalkPageCellViewModel.swift */,
+				00DEE61828AD6C9500A60DF9 /* TalkPageCellCommentViewModel.swift */,
+			);
+			name = "View Model";
+			sourceTree = "<group>";
+		};
 		83ACAA9F24E6DC8E003B3035 /* Command Line Tools */ = {
 			isa = PBXGroup;
 			children = (
@@ -7966,9 +8000,8 @@
 		B0606EAF20AA6FF0006EC6B9 /* WikipediaUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B0606EB020AA6FF0006EC6B9 /* SnapshotRecorderTests.swift */,
-				B0606EC420AA955B006EC6B9 /* SnapshotHelper.swift */,
-				B0BDA58120B09A090098DB65 /* XCUIApplication+SnapshotUtilities.swift */,
+				C97092C72904484500D9CF07 /* Tests */,
+				C97092BC2904228900D9CF07 /* Sources */,
 				B0606EB220AA6FF0006EC6B9 /* Info.plist */,
 			);
 			path = WikipediaUITests;
@@ -8894,6 +8927,77 @@
 				B0E804FD1C0CE0DC0065EBC0 /* UIImage+WMFNormalization.m */,
 			);
 			name = "Face Detection";
+			sourceTree = "<group>";
+		};
+		C97092BB2904215F00D9CF07 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				C97092E0290468EC00D9CF07 /* SearchTests.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		C97092BC2904228900D9CF07 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C97092C12904240D00D9CF07 /* BaseTest.swift */,
+				C97092BF290422E600D9CF07 /* Extensions */,
+				C97092BE290422A600D9CF07 /* Utility */,
+				C97092BD2904229B00D9CF07 /* Screens */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C97092BD2904229B00D9CF07 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				C9BDDBD929058FA500B017D1 /* SearchScreen */,
+				C9BDDBD5290553B800B017D1 /* HomeScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		C97092BE290422A600D9CF07 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				B0606EC420AA955B006EC6B9 /* SnapshotHelper.swift */,
+				C9BDDBD12904A5EE00B017D1 /* CommonHelpers.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		C97092BF290422E600D9CF07 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B0BDA58120B09A090098DB65 /* XCUIApplication+SnapshotUtilities.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C97092C02904230D00D9CF07 /* SnapshotRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				B0606EB020AA6FF0006EC6B9 /* SnapshotRecorderTests.swift */,
+			);
+			path = SnapshotRecorder;
+			sourceTree = "<group>";
+		};
+		C97092C72904484500D9CF07 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C97092BB2904215F00D9CF07 /* Search */,
+				C97092C02904230D00D9CF07 /* SnapshotRecorder */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		C9BDDBD929058FA500B017D1 /* SearchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C9BDDBD72905540700B017D1 /* SearchScreen.swift */,
+				C9BDDBDA29058FEB00B017D1 /* Article.swift */,
+			);
+			path = SearchScreen;
 			sourceTree = "<group>";
 		};
 		D499142C181D51DE00E6073C = {
@@ -10141,7 +10245,7 @@
 					WMFWelcome,
 				);
 				LastSwiftMigration = 0700;
-				LastSwiftUpdateCheck = 1250;
+				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				ORGANIZATIONNAME = "Wikimedia Foundation";
 				TargetAttributes = {
@@ -10150,7 +10254,6 @@
 					};
 					0E8380621D64989F0076EDE4 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = AKK7J2GV64;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -11204,9 +11307,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C97092C22904240D00D9CF07 /* BaseTest.swift in Sources */,
+				C9BDDBD6290553B800B017D1 /* HomeScreen.swift in Sources */,
+				C9BDDBDB29058FEB00B017D1 /* Article.swift in Sources */,
 				B0606EB120AA6FF0006EC6B9 /* SnapshotRecorderTests.swift in Sources */,
+				C9BDDBD82905540700B017D1 /* SearchScreen.swift in Sources */,
 				B0606EC520AA955C006EC6B9 /* SnapshotHelper.swift in Sources */,
+				C97092E1290468EC00D9CF07 /* SearchTests.swift in Sources */,
 				B0BDA58220B09A090098DB65 /* XCUIApplication+SnapshotUtilities.swift in Sources */,
+				C9BDDBD22904A5EE00B017D1 /* CommonHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -11424,6 +11533,7 @@
 				7A610CBD220A582A00C266AE /* HintController.swift in Sources */,
 				7A13A8992028BB3600F28254 /* ReadingListsAlertController.swift in Sources */,
 				67C6F7AB27E8D22400B9C864 /* NotificationsCenterDetailViewModel.swift in Sources */,
+				83510B0728F4CF6400B6235B /* TalkPageErrorStateView.swift in Sources */,
 				D850A53A1F8686DE006FD295 /* WMFThemeableNavigationController.m in Sources */,
 				B083375D1DB16A09002860D2 /* WMFWelcomePanelViewController.swift in Sources */,
 				67C6F7A627E8CB9000B9C864 /* NotificationsCenterCommonViewModel+TextExtensions.swift in Sources */,
@@ -12385,6 +12495,7 @@
 				D8A42A6F1E815A9C00D8E281 /* UIApplication+RTL.swift in Sources */,
 				672285732540B56D0038E332 /* ReferenceBackLinksViewControllerDelegate.swift in Sources */,
 				67C6F7AE27E8D22400B9C864 /* NotificationsCenterDetailViewModel.swift in Sources */,
+				83510B0A28F4CF6400B6235B /* TalkPageErrorStateView.swift in Sources */,
 				D8A42A721E815A9C00D8E281 /* WMFWelcomePanelViewController.swift in Sources */,
 				7A1469C8220BC223000A20F1 /* EditHintController.swift in Sources */,
 				67C6F7A927E8CB9000B9C864 /* NotificationsCenterCommonViewModel+TextExtensions.swift in Sources */,
@@ -12936,6 +13047,7 @@
 				D8CE24EE1E698E2400DAE2E0 /* WMFReferencePanelViewController.swift in Sources */,
 				7AC19E332301EF7D00E25B83 /* PageHistoryFilterCountsViewController.swift in Sources */,
 				7A29A5CF1F6C49C600E8F42B /* CollectionViewUpdater.swift in Sources */,
+				83510B0928F4CF6400B6235B /* TalkPageErrorStateView.swift in Sources */,
 				7A715662226972DF0066FEC4 /* InsertMediaImageTypeSettingsViewController.swift in Sources */,
 				D818D38C1ED765470076110D /* ArticleLocationCollectionViewController.swift in Sources */,
 				7A71567A22699D5B0066FEC4 /* InsertMediaLabelTableFooterView.swift in Sources */,
@@ -13509,6 +13621,7 @@
 				7AC19E342301EF7D00E25B83 /* PageHistoryFilterCountsViewController.swift in Sources */,
 				7A29A5D01F6C49C600E8F42B /* CollectionViewUpdater.swift in Sources */,
 				7A715663226972DF0066FEC4 /* InsertMediaImageTypeSettingsViewController.swift in Sources */,
+				83510B0828F4CF6400B6235B /* TalkPageErrorStateView.swift in Sources */,
 				D8EC3DE51E9BDA35006712EB /* WMFReferencePanelViewController.swift in Sources */,
 				7A71567B22699D5B0066FEC4 /* InsertMediaLabelTableFooterView.swift in Sources */,
 				D8EC3DE81E9BDA35006712EB /* WikidataFetcher+Places.swift in Sources */,
@@ -14961,7 +15074,7 @@
 				CODE_SIGN_ENTITLEMENTS = ContinueReadingWidget/ContinueReadingWidget.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = AKK7J2GV64;
+				DEVELOPMENT_TEAM = SD88L4N95X;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -14992,7 +15105,7 @@
 				CODE_SIGN_ENTITLEMENTS = ContinueReadingWidget/ContinueReadingWidget.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = AKK7J2GV64;
+				DEVELOPMENT_TEAM = SD88L4N95X;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = ContinueReadingWidget/Info.plist;
@@ -15018,7 +15131,7 @@
 				CODE_SIGN_ENTITLEMENTS = ContinueReadingWidget/ContinueReadingWidget.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = AKK7J2GV64;
+				DEVELOPMENT_TEAM = SD88L4N95X;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = ContinueReadingWidget/Info.plist;
@@ -15818,7 +15931,7 @@
 				CODE_SIGN_ENTITLEMENTS = ContinueReadingWidget/ContinueReadingWidget.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = AKK7J2GV64;
+				DEVELOPMENT_TEAM = SD88L4N95X;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -16013,9 +16126,11 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.wikimedia.wikipedia.uitesting.WikipediaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wikipedia;
 			};
 			name = UITest;
 		};
@@ -16049,9 +16164,11 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.wikimedia.wikipedia.uitesting.WikipediaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wikipedia;
 			};
 			name = Debug;
 		};
@@ -16082,8 +16199,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.wikimedia.wikipedia.uitesting.WikipediaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wikipedia;
 			};
 			name = UserTestingDebug;
 		};
@@ -16114,8 +16233,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.wikimedia.wikipedia.uitesting.WikipediaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wikipedia;
 			};
 			name = StagingDebug;
 		};
@@ -16146,8 +16267,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.wikimedia.wikipedia.uitesting.WikipediaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wikipedia;
 			};
 			name = ExperimentalDebug;
 		};
@@ -16178,8 +16301,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.wikimedia.wikipedia.uitesting.WikipediaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wikipedia;
 			};
 			name = Release;
 		};
@@ -16210,8 +16335,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.wikimedia.wikipedia.uitesting.WikipediaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wikipedia;
 			};
 			name = UserTesting;
 		};
@@ -16242,8 +16369,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.wikimedia.wikipedia.uitesting.WikipediaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wikipedia;
 			};
 			name = Staging;
 		};
@@ -16274,8 +16403,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.wikimedia.wikipedia.uitesting.WikipediaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wikipedia;
 			};
 			name = Test;
 		};
@@ -16306,8 +16437,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.wikimedia.wikipedia.uitesting.WikipediaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wikipedia;
 			};
 			name = Experimental;
 		};
@@ -17374,7 +17507,7 @@
 				CODE_SIGN_ENTITLEMENTS = ContinueReadingWidget/ContinueReadingWidget.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = AKK7J2GV64;
+				DEVELOPMENT_TEAM = SD88L4N95X;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -17568,9 +17701,11 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.wikimedia.wikipedia.uitesting.WikipediaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wikipedia;
 			};
 			name = LocalDebug;
 		};
@@ -19283,7 +19418,7 @@
 				CODE_SIGN_ENTITLEMENTS = ContinueReadingWidget/ContinueReadingWidget.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = AKK7J2GV64;
+				DEVELOPMENT_TEAM = SD88L4N95X;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = ContinueReadingWidget/Info.plist;
@@ -19571,7 +19706,7 @@
 				CODE_SIGN_ENTITLEMENTS = ContinueReadingWidget/ContinueReadingWidget.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = AKK7J2GV64;
+				DEVELOPMENT_TEAM = SD88L4N95X;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
