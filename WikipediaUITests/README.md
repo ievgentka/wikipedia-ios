@@ -19,6 +19,7 @@ For tests design used **Page Object Model** design pattern
 - Search articles with title "Apollo 11"
 - Open one of the articles from search results
 - Validate that article content is correct
+
 Where to find the test: WikipediaUITests/Sources/Tests/Search/SearchTests.swift
 
 ```SnapshotRecorderTests```
