@@ -38,7 +38,7 @@ jobs:
           command: bundle exec fastlane verify_pull_request
       - store_test_results:
           path: fastlane/test_output/
-    - store_artifacts:
+      - store_artifacts:
           path: fastlane/test_output/
           destination: scan-test-output
 workflows:
