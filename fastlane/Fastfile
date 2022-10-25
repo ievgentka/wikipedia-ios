@@ -6,8 +6,7 @@ $:.unshift File.dirname(__FILE__)
 default_platform :ios
 
 configurations_to_test_on_pull = [
-  {device: 'iPhone 14 Pro', os: '16.0'},
-  {device: 'iPad Pro (12.9-inch) (5th generation)', os: '15.5'}
+  {device: 'iPhone 14 Pro', os: '16.0'}
 ]
 
 def get_devices_by_scheme_from_options(options)
@@ -103,10 +102,7 @@ platform :ios do
         scheme: scheme,
         project: 'Wikipedia.xcodeproj',
         configuration: 'Test',
-        disable_concurrent_testing: true,
-        output_files: "#{scheme}.junit",
-        output_types: 'junit',
-        slack_message: slack_message
+        disable_concurrent_testing: true
       }
       scan(opts)
     end

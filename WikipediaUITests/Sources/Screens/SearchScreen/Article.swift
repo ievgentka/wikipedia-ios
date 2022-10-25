@@ -12,7 +12,7 @@ public class Article {
     @discardableResult
     public func validateArticle(content: String) -> Self {
         let articleContent = XCUIApplication().webViews.otherElements.staticTexts[content].firstMatch
-        waitForElement(articleContent, toExist: true, assertMessage: "Can't find \(content) content in opened article")
+        waitForElement(articleContent, toExist: true, assertMessage: "Can't find '\(content)' content in opened article")
         return self
     }
     
