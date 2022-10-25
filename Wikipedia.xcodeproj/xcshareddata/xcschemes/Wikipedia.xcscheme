@@ -46,41 +46,23 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BC4273511A7C736800068882"
-               BuildableName = "WikipediaUnitTests.xctest"
-               BlueprintName = "WikipediaUnitTests"
+               BlueprintIdentifier = "B0606EAD20AA6FF0006EC6B9"
+               BuildableName = "WikipediaUITests.xctest"
+               BlueprintName = "WikipediaUITests"
                ReferencedContainer = "container:Wikipedia.xcodeproj">
             </BuildableReference>
             <SkippedTests>
                <Test
-                  Identifier = "ArticleCacheReadingManualTests">
+                  Identifier = "BaseTest">
                </Test>
                <Test
-                  Identifier = "ArticleManualPerformanceTests">
+                  Identifier = "HomeScreen">
                </Test>
                <Test
-                  Identifier = "ArticleViewControllerTests">
+                  Identifier = "SearchScreen">
                </Test>
                <Test
-                  Identifier = "LegacyCoreDataMigratorTests">
-               </Test>
-               <Test
-                  Identifier = "MWKHistoryListPerformanceTests/testReadPerformance">
-               </Test>
-               <Test
-                  Identifier = "NSArray_PredicateTests/testPerformance">
-               </Test>
-               <Test
-                  Identifier = "NSString_FormattedAttributedStringTests/testPerformanceExample">
-               </Test>
-               <Test
-                  Identifier = "ReadingListManualPerformanceTests">
-               </Test>
-               <Test
-                  Identifier = "TalkPageManualPerformanceTests">
-               </Test>
-               <Test
-                  Identifier = "WMFSearchFetcherTests">
+                  Identifier = "WikipediaUITests">
                </Test>
             </SkippedTests>
          </TestableReference>
